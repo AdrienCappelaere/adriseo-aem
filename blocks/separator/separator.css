@@ -3,8 +3,8 @@
     height: 20px; /* Thickness of the separator */
     background: repeating-linear-gradient(
       -55deg, /* Angle of the diagonal stripes */
-      rgb(85, 85, 85), /* Color of the stripe */
-      rgb(85, 85, 85) 1px, /* End of the black stripe */
+      var(--dark-color), /* Color of the stripe */
+      var(--dark-color) 1px, /* End of the black stripe */
       transparent 1px, /* Start of transparent gap */
       transparent 8px /* End of transparent gap */
     );

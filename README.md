@@ -2,8 +2,8 @@
 Your project's description...
 
 ## Environments
-- Preview: https://main--{repo}--{owner}.aem.page/
-- Live: https://main--{repo}--{owner}.aem.live/
+- Preview: [https://main--adriseo-aem--adriencappelaere.aem.page/](https://main--adriseo-aem--adriencappelaere.aem.page/)
+- Live: [https://main--adriseo-aem--adriencappelaere.aem.live/](https://main--adriseo-aem--adriencappelaere.aem.live/)
 
 ## Installation
 

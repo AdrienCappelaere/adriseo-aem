@@ -17,6 +17,9 @@
   border: 1px solid #dadada;
   border-radius: 8px;
   background-color: var(--background-color);
+  cursor: pointer;
+  transform-origin: center;
+  will-change: transform;
 }
 
 .cards .cards-card-body {

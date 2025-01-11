@@ -18,14 +18,14 @@ export default function decorate(block) {
 
   // Add hover effect to card list items
   const cardLists = block.querySelectorAll('ul li');
-  cardLists.forEach(item => {
-    item.addEventListener('mouseover', function() {
-      this.style.transform = 'scale(1.05)';
-      this.style.transition = 'transform 0.3s ease';
+  cardLists.forEach((item) => {
+    item.addEventListener('mouseover', () => {
+      item.style.transform = 'scale(1.05)';
+      item.style.transition = 'transform 0.3s ease';
     });
-    
-    item.addEventListener('mouseout', function() {
-      this.style.transform = 'scale(1)';
+
+    item.addEventListener('mouseout', () => {
+      item.style.transform = 'scale(1)';
     });
   });
 }
